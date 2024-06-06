@@ -1,5 +1,4 @@
-const assert = require('chai').assert;
-export default function calculateNumber(type, a, b) {
+function calculateNumber(type, a, b) {
 	const roundedA = Math.round(a);
 	const roundedB = Math.round(b);
 
@@ -19,4 +18,4 @@ export default function calculateNumber(type, a, b) {
     		}
 }
 
-module.exports = calculateNumber;
+export default calculateNumber;

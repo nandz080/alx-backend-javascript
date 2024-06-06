@@ -1,6 +1,6 @@
-const { expect } = require('chai');
-const { it, describe } = require('mocha');
-const calculateNumber = require('./2-calcul_chai.cjs');
+import { expect } from 'chai';
+import { it, describe } from 'mocha';
+import calculateNumber from './2-calcul_chai.js';
 
 describe('calculateNumber', () => { 
     describe('SUM', () => {
