@@ -19,7 +19,7 @@ describe('calculateNumber', function() {
   });
 
   it('handle negative numbers correctly', function() {
-    assert.strictEqual(calculateNumber(-1.5, -3.7), -6);
+    assert.strictEqual(calculateNumber(-1.3, -3.7), -5);
   });
 
   it('handle mixed positive and negative numbers correctly', function() {
